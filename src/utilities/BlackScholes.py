@@ -34,6 +34,7 @@ class BS():
         self.N = norm.cdf
 
     def get_d(self):
+        """"""
         return self.d1, self.d2
     
     def calculate_d(self):
@@ -48,31 +49,3 @@ class BS():
     def BS_PUT(self):
         put = self.K*np.exp(-self.r*self.T)*self.N(-self.d2) - self.S*self.N(-self.d1)
         return put
-
-
-# def BS_CALL2(S: float, K: float, T: int, r:float, sigma: float, *args: float):
-#     N = norm.cdf
-#     if args:
-#         d1 = args[0]
-#         d2 = args[1]
-#         call = S*N(d1) - K*np.exp(-r*T)*N(d2)
-#         return call
-#     else:
-#         d1 = (np.log(S/K) + (r + sigma**2/2)*T) / (sigma*np.sqrt(T))
-#         d2 = d1 - sigma*np.sqrt(T)
-#         call = S * N(d1) - K * np.exp(-r*T)* N(d2)
-#         return call
-            
-
-# def BS_PUT2(S: float, K: float, T: int, r:float, sigma: float, *args: float):
-#     N = norm.cdf
-#     if args:
-#         d1 = args[0]
-#         d2 = args[1]
-#         put = K*np.exp(-r*T)*N(-d2) - S*N(-d1)
-#         return put
-#     else: 
-#         d1 = (np.log(S/K) + (r + sigma**2/2)*T) / (sigma*np.sqrt(T))
-#         d2 = d1 - sigma* np.sqrt(T)
-#         put = K*np.exp(-r*T)*N(-d2) - S*N(-d1)
-#         return put
