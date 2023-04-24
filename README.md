@@ -1,4 +1,4 @@
-The high level design I had in mind. Will elaborate
+The high level design I had in mind. Will elaborate later on.
 
 ![image](https://user-images.githubusercontent.com/52888356/234033338-80ff5e2f-3c73-413b-aee2-8cf40d36bcaf.png)
 
