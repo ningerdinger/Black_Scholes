@@ -1,10 +1,10 @@
-Explain the difference between implied and histotical volatility.
+1) Explain the difference between implied and histotical volatility.
 
 Historical volatility is a measure of the actual, realized volatility of a stock's price over a specific period of time in the past. It reflects how much the stock price has moved up or down in the past.
 
 Implied volatility, on the other hand, is a measure of the expected future volatility of a stock's price based on the prices of options contracts on that stock. It reflects the market's expectation of how much the stock price will move up or down in the future. This is calculated via the black scholes formula where you estimate the volatility assuming all other variables are known.
 
-Explain VaR and list at least two calculation methods.
+2) Explain VaR and list at least two calculation methods.
 
 Value at Risk (VaR) is a statistical measure used to estimate the potential loss that could be incurred on a portfolio of financial assets or a single asset over a given time period with a certain level of confidence. It provides a quantitative estimate of the amount of potential loss that could occur from normal market fluctuations.
 
