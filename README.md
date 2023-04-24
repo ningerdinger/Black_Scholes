@@ -25,6 +25,13 @@ The high level design I had in mind. Will elaborate later on.
 ![image](https://user-images.githubusercontent.com/52888356/234034178-ae825b2c-57e7-4018-b5d7-347fd8ac283f.png)
 
 
+4)
+
+In question 4 I am gonna assume you may want to test everything step by step, Hence why I intentionally made several methods. In a final product, they can and should probably be all combined to make it go smoother. For checks, you want to build in various logging. 
+
+The unit tests should also include some dummy pandas dataframes. I know this is definitely possible via pytest fixtures.
+
+Below is an explanation on how to get it up and running on pypi
 
 tutorial to package this https://packaging.python.org/en/latest/tutorials/packaging-projects/
 
