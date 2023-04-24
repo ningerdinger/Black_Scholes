@@ -4,7 +4,7 @@ The high level design I had in mind. Will elaborate later on.
 
 ![image](https://user-images.githubusercontent.com/52888356/234033384-8bea4f75-ed85-4fd0-a7e6-6702b96821fd.png)
 
-![image](https://user-images.githubusercontent.com/52888356/234033410-1a7c0154-f466-4687-a3f5-f82c36495d78.png)
+![image](https://user-images.githubusercontent.com/52888356/234034178-ae825b2c-57e7-4018-b5d7-347fd8ac283f.png)
 
 
 
