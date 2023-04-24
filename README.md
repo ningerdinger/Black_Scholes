@@ -14,9 +14,9 @@ Value at Risk (VaR) is a statistical measure used to estimate the potential loss
 
 There are several methods to calculate VaR, including:
 
-    Historical simulation: This method involves simulating the future price movements of a portfolio by using historical data. The VaR is then calculated based on the distribution of historical returns.
+Historical simulation: This method involves simulating the future price movements of a portfolio by using historical data. The VaR is then calculated based on the distribution of historical returns.
 
-    Parametric VaR: This method involves assuming that the returns on the portfolio follow a particular distribution, such as a normal distribution, and calculating the VaR based on this assumption. This method is generally used when the historical data is limited or not available.
+Parametric VaR: This method involves assuming that the returns on the portfolio follow a particular distribution, such as a normal distribution, and calculating the VaR based on this assumption. This method is generally used when the historical data is limited or not available.
 
 Other methods include Monte Carlo simulation, which involves simulating the future price movements of a portfolio using random variables, and stressed VaR, which involves estimating the potential loss that could occur under extreme market conditions.
 
